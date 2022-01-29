@@ -1,5 +1,5 @@
 import React from "react";
-import { Description } from "../../types";
+import { Description } from "../../../types";
 
 interface Props {
   title: string;

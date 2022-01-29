@@ -1,6 +1,6 @@
 import React from "react";
 import { useSearchParams } from "react-router-dom";
-import { debounce } from "../../helpers/utils";
+import { debounce } from "../../../helpers/utils";
 
 const SearchBar: React.FC = () => {
   const [, setSearch] = useSearchParams();

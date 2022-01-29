@@ -2,7 +2,7 @@ import React from "react";
 import AppRouter from "./components/AppRouter";
 
 import "./App.css";
-import Header from "./components/Header";
+import Header from "./components/common/Header";
 import ScrollToTop from "./components/hoc/ScrollToTop";
 
 const App: React.FC = () => {
